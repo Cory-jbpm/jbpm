@@ -17,9 +17,12 @@
 package org.jbpm.kie.services.impl;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
+import org.jbpm.services.api.model.ProcessDefinition;
 import org.kie.api.command.Command;
+import org.kie.api.runtime.query.QueryContext;
 import org.kie.api.task.UserGroupCallback;
 import org.kie.internal.command.ProcessInstanceIdCommand;
 import org.kie.internal.identity.IdentityProvider;
